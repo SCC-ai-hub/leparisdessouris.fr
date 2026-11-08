@@ -13,7 +13,12 @@ ROOT = SITE.parent
 SHELL = (SITE / "js" / "page-shell.html").read_text(encoding="utf-8")
 TEXTS_PATH = SITE / "data" / "texts.json"
 
-STUB = "Скоро здесь появится текст"
+STUBS = {
+    "ru": "Скоро здесь появится текст",
+    "en": "Text coming soon",
+    "fr": "Le texte arrivera bientôt ici",
+    "es": "Pronto aparecerá el texto aquí",
+}
 
 
 def make_entries() -> list[dict]:
@@ -25,12 +30,7 @@ def make_entries() -> list[dict]:
                 "id": num,
                 "slug": num,
                 "hall": "",
-                "texts": {
-                    "ru": STUB,
-                    "en": STUB,
-                    "fr": STUB,
-                    "es": STUB,
-                },
+                "texts": dict(STUBS),
             }
         )
     TEXTS_PATH.write_text(
@@ -62,7 +62,7 @@ def write_index(entries: list[dict]) -> None:
         num = e["id"]
         cards.append(
             f'      <a class="card" href="t/{num}/"><span class="num">{num}</span>'
-            f"<span>{STUB}</span></a>"
+            f"<span>{STUBS['ru']}</span></a>"
         )
         qr_items.append(
             f'      <div class="qr-item"><img src="qr/{num}.png" alt="QR {num}"><span>{num}</span></div>'
