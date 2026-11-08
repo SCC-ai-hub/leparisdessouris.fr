@@ -13,7 +13,7 @@ ROOT = SITE.parent
 SHELL = (SITE / "js" / "page-shell.html").read_text(encoding="utf-8")
 TEXTS_PATH = SITE / "data" / "texts.json"
 
-STUB = "Готовится"
+STUB = "Скоро здесь появится текст"
 
 
 def make_entries() -> list[dict]:
