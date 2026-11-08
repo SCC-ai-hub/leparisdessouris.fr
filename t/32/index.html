@@ -5,8 +5,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
   <meta name="theme-color" content="#1a1210">
   <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>QR Text 32</title>
-  <link rel="stylesheet" href="../../css/qr-text.css?v=14">
+  <script>
+    (function () {
+      var t = Date.now();
+      var root = "../../";
+      var link = document.createElement("link");
+      link.rel = "stylesheet";
+      link.href = root + "css/qr-text.css?t=" + t;
+      document.head.appendChild(link);
+      window.__QR_ASSET_T = t;
+      window.__QR_ROOT = root;
+    })();
+  </script>
 </head>
 <body>
   <div class="stage">
@@ -53,12 +67,28 @@
     </div>
   </div>
 
-  <script src="../../js/qr-text.js?v=14"></script>
   <script>
-    QRTextApp.load("32").catch(function (err) {
-      document.querySelector("[data-text-body]").textContent = "Error loading text.";
-      console.error(err);
-    });
+    (function () {
+      // Avoid bfcache showing a stale page
+      window.addEventListener("pageshow", function (e) {
+        if (e.persisted) location.reload();
+      });
+
+      var t = window.__QR_ASSET_T || Date.now();
+      var root = window.__QR_ROOT || "../../";
+      var s = document.createElement("script");
+      s.src = root + "js/qr-text.js?t=" + t;
+      s.onload = function () {
+        QRTextApp.load("32").catch(function (err) {
+          document.querySelector("[data-text-body]").textContent = "Error loading text.";
+          console.error(err);
+        });
+      };
+      s.onerror = function () {
+        document.querySelector("[data-text-body]").textContent = "Error loading app.";
+      };
+      document.body.appendChild(s);
+    })();
   </script>
 </body>
 </html>

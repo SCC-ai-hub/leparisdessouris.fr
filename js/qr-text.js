@@ -592,7 +592,7 @@
     boot: boot,
     load: function (textId) {
       var root = assetRoot();
-      return fetch(root + "data/texts.json?v=14")
+      return fetch(root + "data/texts.json?t=" + Date.now(), { cache: "no-store" })
         .then(function (r) {
           return r.json();
         })
