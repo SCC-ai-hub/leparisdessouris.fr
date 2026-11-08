@@ -8,9 +8,8 @@
 
   var LANG_STORAGE_KEY = "parisMiceLang";
   var FONT_SCALE_KEY = "parisMiceFontScale";
-  // Test mode: always show language picker on load.
-  // Persistence still saves; later set to false to skip picker when lang is known.
-  var ALWAYS_SHOW_LANG_PICKER = true;
+  // If a language is already saved, skip the full-screen picker on later pages.
+  var ALWAYS_SHOW_LANG_PICKER = false;
 
   var FADE_MS = 280;
   var FONT_SCALE_MIN = 0.75;
@@ -585,7 +584,7 @@
       markActiveFlags(saved);
       updateFontHint(saved);
     } else {
-      updateFontHint("en");
+      updateFontHint("fr");
     }
   }
 
