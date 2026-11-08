@@ -1,9 +1,9 @@
 (function () {
   var LANGS = [
-    { code: "ru", label: "Русский" },
-    { code: "en", label: "English" },
     { code: "fr", label: "Français" },
-    { code: "es", label: "Español" }
+    { code: "en", label: "English" },
+    { code: "es", label: "Español" },
+    { code: "ru", label: "Русский" }
   ];
 
   var LANG_STORAGE_KEY = "parisMiceLang";

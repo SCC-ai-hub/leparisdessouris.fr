@@ -14,10 +14,10 @@ SHELL = (SITE / "js" / "page-shell.html").read_text(encoding="utf-8")
 TEXTS_PATH = SITE / "data" / "texts.json"
 
 STUBS = {
-    "ru": "Скоро здесь появится текст",
-    "en": "Text coming soon",
     "fr": "Le texte arrivera bientôt ici",
+    "en": "Text coming soon",
     "es": "Pronto aparecerá el texto aquí",
+    "ru": "Скоро здесь появится текст",
 }
 
 
