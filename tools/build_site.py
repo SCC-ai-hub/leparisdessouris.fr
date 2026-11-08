@@ -13,50 +13,26 @@ ROOT = SITE.parent
 SHELL = (SITE / "js" / "page-shell.html").read_text(encoding="utf-8")
 TEXTS_PATH = SITE / "data" / "texts.json"
 
-PLACEHOLDER = {
-    "ru": "Текст для стенда {n} готовится.",
-    "en": "Text for stand {n} is coming soon.",
-    "fr": "Le texte du panneau {n} arrive bientôt.",
-    "es": "El texto del panel {n} estará pronto.",
-}
-
-# Short titles for the index (only known stands)
-TITLES_RU = {
-    "01": "Приветствие Зелёной Мышки",
-    "02": "Мышиный Париж",
-    "03": "Хранилище брата Гриньо",
-    "04": "Парижский университет",
-    "05": "Мышь-собирательница",
-}
+STUB = "Готовится"
 
 
-def migrate_texts() -> list[dict]:
-    old = json.loads(TEXTS_PATH.read_text(encoding="utf-8"))
-    by_old_id = {e["id"]: e for e in old}
-    # Map legacy 1.1..1.5 -> 01..05
-    legacy_map = {f"1.{i}": f"{i:02d}" for i in range(1, 6)}
-
+def make_entries() -> list[dict]:
     entries: list[dict] = []
     for i in range(1, 41):
         num = f"{i:02d}"
-        legacy_id = f"1.{i}" if i <= 5 else None
-        src = by_old_id.get(legacy_id) if legacy_id else None
-        if src and src.get("texts"):
-            texts = src["texts"]
-            hall = src.get("hall", "")
-        else:
-            texts = {k: v.format(n=num) for k, v in PLACEHOLDER.items()}
-            hall = ""
         entries.append(
             {
                 "id": num,
                 "slug": num,
-                "hall": hall,
-                "texts": texts,
+                "hall": "",
+                "texts": {
+                    "ru": STUB,
+                    "en": STUB,
+                    "fr": STUB,
+                    "es": STUB,
+                },
             }
         )
-        # Also keep lookup by old ids during transition? not needed after rebuild
-        _ = legacy_map
     TEXTS_PATH.write_text(
         json.dumps(entries, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
@@ -84,12 +60,9 @@ def write_index(entries: list[dict]) -> None:
     qr_items = []
     for e in entries:
         num = e["id"]
-        title = TITLES_RU.get(num, f"Стенд {num}")
-        hall = e.get("hall") or ""
-        meta = f'<span class="meta"><br>зал {hall.rstrip(".")}</span>' if hall else ""
         cards.append(
             f'      <a class="card" href="t/{num}/"><span class="num">{num}</span>'
-            f"<span>{title}{meta}</span></a>"
+            f"<span>{STUB}</span></a>"
         )
         qr_items.append(
             f'      <div class="qr-item"><img src="qr/{num}.png" alt="QR {num}"><span>{num}</span></div>'
@@ -151,7 +124,6 @@ def write_index(entries: list[dict]) -> None:
       color: #fff;
       flex-shrink: 0;
     }}
-    .meta {{ font-size: 0.85rem; opacity: 0.65; }}
     .qr-row {{
       margin-top: 2rem;
       display: grid;
@@ -172,7 +144,7 @@ def write_index(entries: list[dict]) -> None:
 <body>
   <div class="wrap">
     <h1>Le Paris des Souris — QR-тексты</h1>
-    <p class="lead">Стенды 01–40. Отсканируйте QR или откройте страницу на телефоне.</p>
+    <p class="lead">Стенды 01–40 (заглушки). Отсканируйте QR или откройте страницу на телефоне.</p>
     <div class="list">
 {chr(10).join(cards)}
     </div>
@@ -218,7 +190,7 @@ def main() -> None:
     parser.add_argument("--skip-qr", action="store_true")
     args = parser.parse_args()
 
-    entries = migrate_texts()
+    entries = make_entries()
     write_pages(entries)
     write_index(entries)
     if not args.skip_qr:
