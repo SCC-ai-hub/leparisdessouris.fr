@@ -1,7 +1,7 @@
 [
   {
-    "id": "1.1",
-    "slug": "1-1",
+    "id": "01",
+    "slug": "01",
     "hall": "0.",
     "texts": {
       "ru": "Приветствую вас от лица мышиного братства! Зовите меня… ну, скажем, Зелёной Мышкой. \nСегодня я и мои друзья расскажем вам интересные истории о самом красивом городе на земле - Париже! И не только о нём - ведь вы же знаете, что Paris n’est pas une ville, c’est un pays  \nСейчас вы познакомитесь с моим другом Жаном, простым парижским мышонком, который тоже о многом не подозревал. Но не только с ним -  Однажды он зашел в ту самую дверь на улице Saint Dominique, или, лучше сказать, свалился в неё — и началось… Спросите, как можно провалиться в дверь? Сейчас сами всё увидите - не забывайте смотреть под ноги и следить за номерами на наших волшебных розовых кругах. Подойдите к нашей секретной двери и дождитесь, пока вас пригласят внутрь. А пока вы ждёте - не теряйте время. Оглянитесь вокруг - видите, ни одной кошки. А как вы знаете - quand le chat n’est pas là, les souris dansent.",
@@ -11,8 +11,8 @@
     }
   },
   {
-    "id": "1.2",
-    "slug": "1-2",
+    "id": "02",
+    "slug": "02",
     "hall": "1.",
     "texts": {
       "ru": "Вот он, мышиный Париж! Здесь всё существует одновременно: средневековые университеты и сегодняшние школы, штурм Бастилии и оперная премьера — в театре, который открылся ровно к двухсотлетию этого штурма.\nВы слышали о мышиных норах в пространстве-времени? Сейчас мы начнём в них нырять.\nКстати, телепортироваться во времени умеют не только мыши. Я знаю множество людей, которые делают это, просто открыв книгу или внимательно поглядев на фасад старого дома.\nЭтим мне Париж и нравится: он работает как машина времени. Надо только уметь ею пользоваться.",
@@ -22,8 +22,8 @@
     }
   },
   {
-    "id": "1.3",
-    "slug": "1-3",
+    "id": "03",
+    "slug": "03",
     "hall": "2.",
     "texts": {
       "ru": "Вы уже познакомились с архивной крысой, братом Гриньо? Теперь добро пожаловать в его хранилище! Здесь он собрал свои самые вкусные манускрипты — о том, как Париж постепенно стал Парижем, а галлы, римляне и франки — французами.",
@@ -33,8 +33,8 @@
     }
   },
   {
-    "id": "1.4",
-    "slug": "1-4",
+    "id": "04",
+    "slug": "04",
     "hall": "2.",
     "texts": {
       "ru": "Чему учили в Парижском университете семьсот лет назад? Сначала — думать, говорить и убеждать. Потом — счёту, геометрии, звёздам и музыке. На самом верху лестницы наук стояли право, медицина и богословие. Богословием Париж славился на всю Европу.\nИз этих наук брат Гриньо больше всего любит науку о том, как правильно думать — логику. Правда, и логика не всемогуща. Вот задача, над которой Архивная крыса ломает голову уже много веков. \nСколько зёрен нужно, чтобы получилась куча? Пять — точно не куча. Тысяча — явно куча. Значит, где-то между ними лежит то самое зерно, после которого куча становится собой. Только вот какое? \nКажется, учёные просто умеют усложнять простое. Тогда попробуйте ответить на такой же вопрос: в какой момент ребёнок становится взрослым? Права и обязанности у них разные, значит, граница где-то есть. Есть над чем подумать!",
@@ -44,14 +44,399 @@
     }
   },
   {
-    "id": "1.5",
-    "slug": "1-5",
+    "id": "05",
+    "slug": "05",
     "hall": "3.",
     "texts": {
       "ru": "Мыши умеют делать запасы. Люди тоже — только они называют это коллекцией. У каждого из нас есть хотя бы маленькая. А какой бывает коллекция целого города? Или целой страны?\nМышь-собирательница, Иветт,  живёт в Лувре очень давно. Сейчас она вам всё покажет.",
       "en": "Mice know how to lay in supplies. People do too — only they call it a collection. Each of us has at least a small one. And what is the collection of an entire city like? Or of an entire country?\nThe collector mouse, Yvette, has lived in the Louvre for a very long time. Now she will show you everything.",
       "fr": "Les souris savent faire des provisions. Les gens aussi — sauf qu’ils appellent ça une collection. Chacun de nous en a au moins une petite. Et à quoi ressemble la collection d’une ville entière ? Ou d’un pays tout entier ?\nLa souris collectionneuse, Yvette, vit au Louvre depuis très longtemps. Elle va maintenant tout vous montrer.",
       "es": "Los ratones saben hacer provisiones. Las personas también — solo que ellas lo llaman colección. Todos tenemos al menos una, aunque sea pequeñita. ¿Y cómo puede ser la colección de toda una ciudad? ¿O de todo un país?\nLa ratona coleccionista, Yvette, vive en el Louvre desde hace muchísimo tiempo. Ahora mismo os lo enseñará todo."
+    }
+  },
+  {
+    "id": "06",
+    "slug": "06",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 06 готовится.",
+      "en": "Text for stand 06 is coming soon.",
+      "fr": "Le texte du panneau 06 arrive bientôt.",
+      "es": "El texto del panel 06 estará pronto."
+    }
+  },
+  {
+    "id": "07",
+    "slug": "07",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 07 готовится.",
+      "en": "Text for stand 07 is coming soon.",
+      "fr": "Le texte du panneau 07 arrive bientôt.",
+      "es": "El texto del panel 07 estará pronto."
+    }
+  },
+  {
+    "id": "08",
+    "slug": "08",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 08 готовится.",
+      "en": "Text for stand 08 is coming soon.",
+      "fr": "Le texte du panneau 08 arrive bientôt.",
+      "es": "El texto del panel 08 estará pronto."
+    }
+  },
+  {
+    "id": "09",
+    "slug": "09",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 09 готовится.",
+      "en": "Text for stand 09 is coming soon.",
+      "fr": "Le texte du panneau 09 arrive bientôt.",
+      "es": "El texto del panel 09 estará pronto."
+    }
+  },
+  {
+    "id": "10",
+    "slug": "10",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 10 готовится.",
+      "en": "Text for stand 10 is coming soon.",
+      "fr": "Le texte du panneau 10 arrive bientôt.",
+      "es": "El texto del panel 10 estará pronto."
+    }
+  },
+  {
+    "id": "11",
+    "slug": "11",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 11 готовится.",
+      "en": "Text for stand 11 is coming soon.",
+      "fr": "Le texte du panneau 11 arrive bientôt.",
+      "es": "El texto del panel 11 estará pronto."
+    }
+  },
+  {
+    "id": "12",
+    "slug": "12",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 12 готовится.",
+      "en": "Text for stand 12 is coming soon.",
+      "fr": "Le texte du panneau 12 arrive bientôt.",
+      "es": "El texto del panel 12 estará pronto."
+    }
+  },
+  {
+    "id": "13",
+    "slug": "13",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 13 готовится.",
+      "en": "Text for stand 13 is coming soon.",
+      "fr": "Le texte du panneau 13 arrive bientôt.",
+      "es": "El texto del panel 13 estará pronto."
+    }
+  },
+  {
+    "id": "14",
+    "slug": "14",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 14 готовится.",
+      "en": "Text for stand 14 is coming soon.",
+      "fr": "Le texte du panneau 14 arrive bientôt.",
+      "es": "El texto del panel 14 estará pronto."
+    }
+  },
+  {
+    "id": "15",
+    "slug": "15",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 15 готовится.",
+      "en": "Text for stand 15 is coming soon.",
+      "fr": "Le texte du panneau 15 arrive bientôt.",
+      "es": "El texto del panel 15 estará pronto."
+    }
+  },
+  {
+    "id": "16",
+    "slug": "16",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 16 готовится.",
+      "en": "Text for stand 16 is coming soon.",
+      "fr": "Le texte du panneau 16 arrive bientôt.",
+      "es": "El texto del panel 16 estará pronto."
+    }
+  },
+  {
+    "id": "17",
+    "slug": "17",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 17 готовится.",
+      "en": "Text for stand 17 is coming soon.",
+      "fr": "Le texte du panneau 17 arrive bientôt.",
+      "es": "El texto del panel 17 estará pronto."
+    }
+  },
+  {
+    "id": "18",
+    "slug": "18",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 18 готовится.",
+      "en": "Text for stand 18 is coming soon.",
+      "fr": "Le texte du panneau 18 arrive bientôt.",
+      "es": "El texto del panel 18 estará pronto."
+    }
+  },
+  {
+    "id": "19",
+    "slug": "19",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 19 готовится.",
+      "en": "Text for stand 19 is coming soon.",
+      "fr": "Le texte du panneau 19 arrive bientôt.",
+      "es": "El texto del panel 19 estará pronto."
+    }
+  },
+  {
+    "id": "20",
+    "slug": "20",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 20 готовится.",
+      "en": "Text for stand 20 is coming soon.",
+      "fr": "Le texte du panneau 20 arrive bientôt.",
+      "es": "El texto del panel 20 estará pronto."
+    }
+  },
+  {
+    "id": "21",
+    "slug": "21",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 21 готовится.",
+      "en": "Text for stand 21 is coming soon.",
+      "fr": "Le texte du panneau 21 arrive bientôt.",
+      "es": "El texto del panel 21 estará pronto."
+    }
+  },
+  {
+    "id": "22",
+    "slug": "22",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 22 готовится.",
+      "en": "Text for stand 22 is coming soon.",
+      "fr": "Le texte du panneau 22 arrive bientôt.",
+      "es": "El texto del panel 22 estará pronto."
+    }
+  },
+  {
+    "id": "23",
+    "slug": "23",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 23 готовится.",
+      "en": "Text for stand 23 is coming soon.",
+      "fr": "Le texte du panneau 23 arrive bientôt.",
+      "es": "El texto del panel 23 estará pronto."
+    }
+  },
+  {
+    "id": "24",
+    "slug": "24",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 24 готовится.",
+      "en": "Text for stand 24 is coming soon.",
+      "fr": "Le texte du panneau 24 arrive bientôt.",
+      "es": "El texto del panel 24 estará pronto."
+    }
+  },
+  {
+    "id": "25",
+    "slug": "25",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 25 готовится.",
+      "en": "Text for stand 25 is coming soon.",
+      "fr": "Le texte du panneau 25 arrive bientôt.",
+      "es": "El texto del panel 25 estará pronto."
+    }
+  },
+  {
+    "id": "26",
+    "slug": "26",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 26 готовится.",
+      "en": "Text for stand 26 is coming soon.",
+      "fr": "Le texte du panneau 26 arrive bientôt.",
+      "es": "El texto del panel 26 estará pronto."
+    }
+  },
+  {
+    "id": "27",
+    "slug": "27",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 27 готовится.",
+      "en": "Text for stand 27 is coming soon.",
+      "fr": "Le texte du panneau 27 arrive bientôt.",
+      "es": "El texto del panel 27 estará pronto."
+    }
+  },
+  {
+    "id": "28",
+    "slug": "28",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 28 готовится.",
+      "en": "Text for stand 28 is coming soon.",
+      "fr": "Le texte du panneau 28 arrive bientôt.",
+      "es": "El texto del panel 28 estará pronto."
+    }
+  },
+  {
+    "id": "29",
+    "slug": "29",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 29 готовится.",
+      "en": "Text for stand 29 is coming soon.",
+      "fr": "Le texte du panneau 29 arrive bientôt.",
+      "es": "El texto del panel 29 estará pronto."
+    }
+  },
+  {
+    "id": "30",
+    "slug": "30",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 30 готовится.",
+      "en": "Text for stand 30 is coming soon.",
+      "fr": "Le texte du panneau 30 arrive bientôt.",
+      "es": "El texto del panel 30 estará pronto."
+    }
+  },
+  {
+    "id": "31",
+    "slug": "31",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 31 готовится.",
+      "en": "Text for stand 31 is coming soon.",
+      "fr": "Le texte du panneau 31 arrive bientôt.",
+      "es": "El texto del panel 31 estará pronto."
+    }
+  },
+  {
+    "id": "32",
+    "slug": "32",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 32 готовится.",
+      "en": "Text for stand 32 is coming soon.",
+      "fr": "Le texte du panneau 32 arrive bientôt.",
+      "es": "El texto del panel 32 estará pronto."
+    }
+  },
+  {
+    "id": "33",
+    "slug": "33",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 33 готовится.",
+      "en": "Text for stand 33 is coming soon.",
+      "fr": "Le texte du panneau 33 arrive bientôt.",
+      "es": "El texto del panel 33 estará pronto."
+    }
+  },
+  {
+    "id": "34",
+    "slug": "34",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 34 готовится.",
+      "en": "Text for stand 34 is coming soon.",
+      "fr": "Le texte du panneau 34 arrive bientôt.",
+      "es": "El texto del panel 34 estará pronto."
+    }
+  },
+  {
+    "id": "35",
+    "slug": "35",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 35 готовится.",
+      "en": "Text for stand 35 is coming soon.",
+      "fr": "Le texte du panneau 35 arrive bientôt.",
+      "es": "El texto del panel 35 estará pronto."
+    }
+  },
+  {
+    "id": "36",
+    "slug": "36",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 36 готовится.",
+      "en": "Text for stand 36 is coming soon.",
+      "fr": "Le texte du panneau 36 arrive bientôt.",
+      "es": "El texto del panel 36 estará pronto."
+    }
+  },
+  {
+    "id": "37",
+    "slug": "37",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 37 готовится.",
+      "en": "Text for stand 37 is coming soon.",
+      "fr": "Le texte du panneau 37 arrive bientôt.",
+      "es": "El texto del panel 37 estará pronto."
+    }
+  },
+  {
+    "id": "38",
+    "slug": "38",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 38 готовится.",
+      "en": "Text for stand 38 is coming soon.",
+      "fr": "Le texte du panneau 38 arrive bientôt.",
+      "es": "El texto del panel 38 estará pronto."
+    }
+  },
+  {
+    "id": "39",
+    "slug": "39",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 39 готовится.",
+      "en": "Text for stand 39 is coming soon.",
+      "fr": "Le texte du panneau 39 arrive bientôt.",
+      "es": "El texto del panel 39 estará pronto."
+    }
+  },
+  {
+    "id": "40",
+    "slug": "40",
+    "hall": "",
+    "texts": {
+      "ru": "Текст для стенда 40 готовится.",
+      "en": "Text for stand 40 is coming soon.",
+      "fr": "Le texte du panneau 40 arrive bientôt.",
+      "es": "El texto del panel 40 estará pronto."
     }
   }
 ]
